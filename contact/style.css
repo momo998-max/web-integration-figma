@@ -1,0 +1,437 @@
+/* screen - contact */
+:root { 
+    --black: #000000;
+    --lemon: #ffe609;
+    --romance: #fffcfc;
+    --white: #ffffff;
+   
+    --font-size-m: 24px;
+    --font-size-m2: 13px;
+    --font-size-xl: 16px;
+   
+    --font-family-inter: "Inter", Helvetica;
+    --font-family-roboto: "Roboto", Helvetica;
+  }
+  .inter-medium-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .roboto-semi-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .roboto-normal-white-13px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m2);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500|Roboto:400,600");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/64539bc88b4e7062cd31aa28.64539bd182e708c598bdc8c3.64539bd4d88f082f8741ebe8.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.contact {
+    align-items: center;
+    background-color: var(--white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .contact .group-2 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 8.0px;
+    min-width: 1448px;
+  }
+  
+  .contact .overlap-group {
+    align-items: center;
+    background-color: var(--lemon);
+    box-shadow: 0px 4px 4px #00000059;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 1440px;
+    padding: 0 29px;
+  }
+  
+  .contact .rectangle-2 {
+    align-self: flex-start;
+    height: 78px;
+    object-fit: cover;
+    width: 82px;
+  }
+  
+  .contact .title {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 6.58px;
+    margin-left: 283px;
+    min-height: 28px;
+    white-space: nowrap;
+    width: 85px;
+  }
+  
+  .contact .mes-recettes {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 6.58px;
+    margin-left: 48px;
+    min-height: 28px;
+    white-space: nowrap;
+    width: 151px;
+  }
+  
+  .contact .a-propos-de-nous {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 7.0px;
+    margin-left: 48px;
+    min-height: 27px;
+    white-space: nowrap;
+    width: 225px;
+  }
+  
+  .contact .overlap-group1 {
+    align-items: flex-start;
+    background-color: var(--romance);
+    display: flex;
+    height: 80px;
+    margin-left: 10px;
+    min-width: 133px;
+    padding: 23px 14px;
+  }
+  
+  .contact .contacts {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .contact .ellipse-1 {
+    margin-left: 183px;
+  }
+  
+  .contact .ellipse {
+    margin-left: 8px;
+  }
+  
+  .contact .overlap-group6 {
+    height: 564px;
+    margin-left: 11.0px;
+    margin-top: 31px;
+    position: relative;
+    width: 1001px;
+  }
+  
+  .contact .rectangle-15 {
+    background-color: var(--romance);
+    box-shadow: 0px 4px 4px #00000040;
+    height: 564px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 998px;
+  }
+  
+  .contact .rectangle-16 {
+    height: 564px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 507px;
+  }
+  
+  .contact .group-33 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    left: 527px;
+    min-height: 389px;
+    position: absolute;
+    top: 98px;
+    width: 421px;
+  }
+  
+  .contact .overlap-group5 {
+    align-items: flex-start;
+    background-color: var(--lemon);
+    border-radius: 15px;
+    display: flex;
+    height: 69px;
+    margin-right: 8.0px;
+    min-width: 413px;
+    padding: 20.5px 12.7px;
+  }
+  
+  .contact .prnom-et-nom {
+    color: #0000009e;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .contact .overlap-group2 {
+    align-items: flex-start;
+    background-color: var(--lemon);
+    border-radius: 15px;
+    display: flex;
+    height: 69px;
+    margin-right: 8.0px;
+    min-width: 413px;
+    padding: 20.4px 12.7px;
+  }
+  
+  .contact .e-mail {
+    color: #000000a1;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .contact .overlap-group3 {
+    align-items: flex-start;
+    background-color: var(--lemon);
+    border-radius: 15px;
+    display: flex;
+    height: 137px;
+    margin-right: 8.0px;
+    min-width: 413px;
+    padding: 16.3px 12.7px;
+  }
+  
+  .contact .message {
+    color: #0a0a0a94;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .contact .overlap-group4 {
+    align-items: flex-start;
+    background-color: #148802;
+    border-radius: 15px;
+    display: flex;
+    height: 69px;
+    margin-right: 6.97px;
+    min-width: 343px;
+    padding: 20.3px 112.8px;
+  }
+  
+  .contact .envoyer {
+    color: var(--romance);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .contact .group-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 187px;
+    min-height: 162px;
+    width: 1440px;
+  }
+  
+  .contact .overlap-group-1 {
+    height: 111px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .contact .rectangle-31 {
+    background-color: #148802;
+    border-radius: 0px 20px 0px 0px;
+    height: 84px;
+    left: 0;
+    position: absolute;
+    top: 27px;
+    width: 1440px;
+  }
+  
+  .contact .line-1 {
+    left: 487px;
+  }
+  
+  .contact .line-2 {
+    left: 953px;
+  }
+  
+  .contact .group-12 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    left: 147px;
+    min-height: 43px;
+    position: absolute;
+    top: 53px;
+    width: 146px;
+  }
+  
+  .contact .adresse {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 4px;
+    min-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .contact .dakar-senegal {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 14px;
+    white-space: nowrap;
+  }
+  
+  .contact .group-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    left: 609px;
+    min-height: 48px;
+    position: absolute;
+    top: 49px;
+    width: 141px;
+  }
+  
+  .contact .place {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .contact .text-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 14px;
+    white-space: nowrap;
+  }
+  
+  .contact .group-14 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    left: 1075px;
+    min-height: 41px;
+    position: absolute;
+    top: 40px;
+    width: 210px;
+  }
+  
+  .contact .e-mail-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .contact .chezamy221gmailcom {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 14px;
+    white-space: nowrap;
+  }
+  
+  .contact .overlap-group1-1 {
+    align-items: flex-start;
+    background-color: var(--lemon);
+    border-radius: 0px 0px 0px 20px;
+    display: flex;
+    height: 44px;
+    justify-content: flex-end;
+    min-width: 1440px;
+    padding: 8.1px 473px;
+  }
+  
+  .contact .copyright-simplon {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .contact .ellipse-2 {
+    height: 32px;
+    margin-bottom: 1.81px;
+    object-fit: cover;
+    width: 34px;
+  }
+  
+  .contact .line {
+    height: 107px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1px;
+  }
+  
